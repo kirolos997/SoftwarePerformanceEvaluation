@@ -1,0 +1,5 @@
+The Context Call Tree (CCT): 
+Path main calls pointed is encoded as Path 0 and is repeated 1 times.
+Path main calls f1 calls f2 is encoded as Path 1 and is repeated 1 times.
+Path main calls f0 calls f2 is encoded as Path 2 and is repeated 1 times.
+Path main calls f0 calls f1 calls f2 is encoded as Path 3 and is repeated 1 times.

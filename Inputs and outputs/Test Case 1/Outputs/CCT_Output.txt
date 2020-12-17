@@ -1,0 +1,11 @@
+The Context Call Tree (CCT): 
+Path main calls get_square is encoded as Path 0 and is repeated 6 times.
+Path main calls get_mult calls get_square is encoded as Path 1 and is repeated 5 times.
+Path main calls get_mult calls get_cube is encoded as Path 2 and is repeated 5 times.
+Path main calls get_diff calls get_square is encoded as Path 3 and is repeated 1 times.
+Path main calls get_diff calls get_cube is encoded as Path 4 and is repeated 1 times.
+Path main calls get_dev calls get_diff calls get_square is encoded as Path 5 and is repeated 1 times.
+Path main calls get_dev calls get_diff calls get_cube is encoded as Path 6 and is repeated 1 times.
+Path main calls get_cube is encoded as Path 7 and is repeated 5 times.
+Path main calls get_add calls get_square is encoded as Path 8 and is repeated 8 times.
+Path main calls get_add calls get_cube is encoded as Path 9 and is repeated 8 times.
